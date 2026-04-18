@@ -81,7 +81,7 @@ Contoh Response:
 GET https://margomitrojoyo.github.io/api-wilayah-indonesia/api/districts/{regencyId}.json
 ```
 
-Contoh untuk mengambil daftar kecamatan di Aceh Selatan (ID = 1103):
+Contoh untuk mengambil daftar kecamatan di Aceh Selatan (ID = 1101):
 
 ```
 GET https://margomitrojoyo.github.io/api-wilayah-indonesia/api/districts/1103.json
@@ -92,14 +92,14 @@ Contoh Response:
 ```
 [
   {
-    "id": "1103010",
-    "regency_id": "1103",
+    "id": "110109",
+    "regency_id": "1101",
     "name": "TRUMON"
   },
   {
-    "id": "1103011",
-    "regency_id": "1103",
-    "name": "TRUMON TIMUR"
+    "id": "110110",
+    "regency_id": "1101",
+    "name": "PASIE RAJA"
   },
   ...
 ]
@@ -111,10 +111,10 @@ Contoh Response:
 GET https://margomitrojoyo.github.io/api-wilayah-indonesia/api/villages/{districtId}.json
 ```
 
-Contoh untuk mengambil daftar kelurahan di Trumon (ID = 1103010):
+Contoh untuk mengambil daftar kelurahan di Trumon (ID = 110109):
 
 ```
-GET https://margomitrojoyo.github.io/api-wilayah-indonesia/api/villages/1103010.json
+GET https://margomitrojoyo.github.io/api-wilayah-indonesia/api/villages/110109.json
 ```
 
 Contoh Response:
@@ -122,13 +122,13 @@ Contoh Response:
 ```
 [
   {
-    "id": "1103010001",
-    "district_id": "1103010",
+    "id": "1101092012",
+    "district_id": "110109",
     "name": "KUTA PADANG"
-  },
+  }, 
   {
-    "id": "1103010002",
-    "district_id": "1103010",
+    "id": "1101092013",
+    "district_id": "110109",
     "name": "RAKET"
   },
   ...
@@ -172,7 +172,7 @@ Contoh Response:
 
 ```
 {
-  "id": "1103",
+  "id": "1101",
   "province_id": "11",
   "name": "KABUPATEN ACEH SELATAN"
 }
@@ -184,18 +184,18 @@ Contoh Response:
 GET https://margomitrojoyo.github.io/api-wilayah-indonesia/api/district/{districtId}.json
 ```
 
-Contoh untuk mengambil data kecamatan Trumon Timur (ID = 1103011):
+Contoh untuk mengambil data kecamatan Trumon Timur (ID = 110114):
 
 ```
-GET https://margomitrojoyo.github.io/api-wilayah-indonesia/api/district/1103011.json
+GET https://margomitrojoyo.github.io/api-wilayah-indonesia/api/district/110114.json
 ```
 
 Contoh Response:
 
 ```
 {
-  "id": "1103011",
-  "regency_id": "1103",
+  "id": "110114",
+  "regency_id": "1101",
   "name": "TRUMON TIMUR"
 }
 ```
@@ -206,18 +206,18 @@ Contoh Response:
 GET https://margomitrojoyo.github.io/api-wilayah-indonesia/api/village/{villageId}.json
 ```
 
-Contoh untuk mengambil data kelurahan Jambo Dalem (ID = 1103011010):
+Contoh untuk mengambil data kelurahan Jambo Dalem (ID = 1101162007):
 
 ```
-GET https://margomitrojoyo.github.io/api-wilayah-indonesia/api/village/1103011010.json
+GET https://margomitrojoyo.github.io/api-wilayah-indonesia/api/village/1101162007.json
 ```
 
 Contoh Response:
 
 ```
 {
-  "id": "1103011010",
-  "district_id": "1103011",
+  "id": "1101162007",
+  "district_id": "110116",
   "name": "JAMBO DALEM"
 }
 ```
